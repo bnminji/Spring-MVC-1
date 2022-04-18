@@ -23,8 +23,5 @@ public class HelloServlet extends HttpServlet {
         //문자 인코딩 정보를 알려줘야 함
         response.setCharacterEncoding("utf-8");
         response.getWriter().write("hello " + username);
-
-
-
     }
 }
